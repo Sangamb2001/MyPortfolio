@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <script src="https://kit.fontawesome.com/bb6c416ca0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./MyPortfolio.css">
+</head>
+<body>
+    <div class="first">
+        <div class="container1">
+            <nav>
+                <img class="logo" src="./IMAGESP/adobe-portfolio-2522508-2132696.webp" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <div class="baar"><i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
+                
+            </nav>
+        </div>
+        <div class="imgandtext">
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I am <span>Sangam Bansal</span><br> From Bharatpur</h1>
+            </div>
+            <div id="header">
+            </div>
+           </div>
+    </div>
+    <!---------------------------- about ---------------------------------->
+    <div id="about">
+            <div class="row">
+                <div id="col-1">
+                    <img id="immmg" src="./IMAGESP/20220111170847_IMG_1128.JPG" alt="">
+                </div>
+                <div id="col-2">
+                    <h1>About Me</h1>
+                   <p>Hey,I am Sangam Bansal currntly studying in GLA UNIVERSITY, Mathura I have Good knowledge of FrontEnd technologies and also good in Java.I have also done a summer internship course on App Development using Flutter.I am a Dynamic and Passionate Person.I like to work along with Team.My hobbies are Listening to Music and Reading.</p>
+                  <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab('Skills')"><p>Skills</p></div>
+                    <div class="tab-links" onclick="opentab('Expereince')"><p>Projects</p></div>
+                    <div class="tab-links" onclick="opentab('Education')"><p>Education</p></div>
+                  </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>FrontEnd Develoment</span><br>Good Knowledge of HTML5, CSS and JavaScript  </li>
+                            <li><span>App Development</span><br>App Develoment using Flutter</li>
+                            <li><span>OOPs concepts</span><br>Knows to implement OOPs concept using Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Expereince">
+                        <ul>
+                            <li><span>The Organizer</span><br>Made a App to Organize your Watchlist Of movies and webseries you hav watched. </li>
+                            <li><span>Portfolio</span><br>Made a Portfolio of Showing my Skills an Projects.</li>
+                            <li><span>Recommendaton System</span><br>Made a project of Movie Recommendation System which recommmends you the similar movie you liked. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>GLA UNIVERSITY</li>
+                            <li><span>2018-19</span><br>Sony Tower</li>
+                            <li><span>2016-17</span><br>St. Peters Sr. Sec. School</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------ services --------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <div class="subtitle">
+                <h1>My Services</h1>
+            <div class="services-list"> 
+                     <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                   <p>Have Proficiency In FrontEnd Development and design frontend webpages </p>
+                     </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Java</h2>
+                    <p>Have a Descent knowledge of java and also have knowledge of OOPs concept in java </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Knows to Make Mobile Apps using Flutter FrameWork and Design UI for Screens and also build an App using Flutter which helps to organize your data  </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------- portfolio ----------------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="subtitle">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./IMAGESP/the-complete-guide-to-mobile-app-development-2021.png" alt="">
+                        <div class="layer">
+                            <h3>The Organizer</h3>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./IMAGESP/webbdd.jpg" alt="">
+                        <div class="layer">
+                            <h3>My Portfolio</h3>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./IMAGESP/UII.jpg" alt="">
+                        <div class="layer">
+                            <h3>Recommendation System</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>bansalsangam2001@gmail.com</p>
+                    <p>9672420770</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="./Sangam Bansal_BTech_GLAU.pdf" download id="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email" >
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" id="btn" onclick="displaytext()">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="feedback">Thanks for your Feedback</div>
+    <script src="./Myprotfolio.js"> </script>
+</body>
+</html>
