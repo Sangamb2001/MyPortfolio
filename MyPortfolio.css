@@ -323,9 +323,14 @@ display: none;
    #col-1{
     flex-basis: 100%;
    }
+   #col-1 img{
+    height: 70vh;
+    width: 50vw;
+   }
    #col-2 h1{
     margin-bottom: 10px;
     margin-top: 0px;
+    text-align: center;
    } 
    #col-2 p{
     font-size: 16px;
@@ -334,8 +339,4 @@ display: none;
     margin-right: 10px;
    }
 }
-@media only screen and (max-width: 1200px) {
-.conatiner1{
-  display: inline-block;
-  margin-top: 1px;
-}}
+
